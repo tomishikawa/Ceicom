@@ -2,7 +2,7 @@ version: '3.0'
 services:
   web:
     restart: always
-    image: alexcheng/magento2
+    image: jhonatangrymuza/magento2:1.0
     ports:
       - "80:80"
     links:
